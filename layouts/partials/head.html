@@ -13,7 +13,7 @@
 {{ if .Params.noindex }}
 	<meta name="robots" content="noindex">
 {{ end }}
-<meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}danfortran.github.io contains blogs about computers, philosophy, math, user interface, and user experience. They are written to be accessible, accurate, free, informative, and interesting.{{ end }}">
+<meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Hardcoded Description{{ end }}">
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{ end }}
