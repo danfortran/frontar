@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <nav>
+    {{- partial "post-nav.html" . -}}
+    </nav>
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <article>
+        <h3>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+    {{ if gt (len .Summary) 0 }}
+    <section>
+        {{ .Summary | safeHTML }}
+    </section>
+    </article>
+        {{ end }}
+    {{ end }}
+{{ end }}
