@@ -3,8 +3,8 @@
 
 name = "Frontar"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = "Balances accessibility and minimalism to the most fair extent."
+licenselink = "https://github.com/danfortran/frontar/blob/main/LICENSE"
+description = "Minimal Hugo theme. Minimalism done right; accessibility and good user interface are essential."
 homepage = "/"
 tags = []
 features = []
