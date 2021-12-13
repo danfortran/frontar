@@ -20,6 +20,7 @@ git submodule add https://github.com/danfortran/frontar.git themes/frontar
 
 ### Step 3: Move the config.toml
 (assuming your directory is located at: /home/user/enteryoursitename)
+
 ``mv /home/user/enteryoursitename/themes/config.toml /home/user/enteryoursitename/``
 
 You can replicate this process with your graphical file manager.
