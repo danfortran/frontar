@@ -1,6 +1,8 @@
 # Frontar
 Minimalism done right; accessibility and good user interface are essential.
 
+Frontar is an anagram of "Fortran". The "Front" represents "frontend"; the name sounds like "Frontier".
+
 # Installation
 ## Step 1: Create a New Site
 ``hugo new site enteryoursitename``
