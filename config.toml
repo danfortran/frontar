@@ -1,0 +1,23 @@
+baseURL = 'https://example.com'
+languageCode = 'en-us'
+title = 'Frontar Theme'
+theme = 'frontar'
+enableRobotsTXT = true
+
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
+
+[params]
+  Description = "This is a meta description."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
