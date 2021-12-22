@@ -1,3 +1,10 @@
+# !IMPORTANT!
+!---!
+
+**Frontar is unmaintained and undocumented. It was not intended to be used by anyone other than the theme's designer, but it is technically possible to use it. It's unlikely that there will be any issue using it; Hugo may introduce new updates in the future which may result in code becoming obsolete. However, you're still able to fork the project and update the code if that happens and you have the desire to.**
+
+!---!
+
 # Frontar
 Minimalism done right; accessibility and good user interface are essential.
 
